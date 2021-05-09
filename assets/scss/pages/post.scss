@@ -99,6 +99,7 @@ $tocBreakpoint: 1024px;
     text-decoration: none;
     color: #9b9b9b;
     font-size: 0.9rem;
+    transition: all 100ms ease-in-out;
   }
 
   a.active {
