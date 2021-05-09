@@ -76,6 +76,8 @@ $tocBreakpoint: 1024px;
   align-self: start;
   top: 3rem;
   max-width: 350px;
+  overflow-y: auto;
+  max-height: 85vh;
 
   @media screen and (max-width: $tocBreakpoint) {
     display: none;
