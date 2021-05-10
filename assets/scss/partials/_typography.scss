@@ -54,7 +54,7 @@ h5 {
 }
 
 p {
-  margin-top: $leading;
+  margin-top: $leading * 0.1;
   margin-bottom: 0;
   line-height: $leading;
 }
@@ -62,8 +62,8 @@ p {
 ul,
 ol {
   padding-left: $leading;
-  margin-top: $leading;
-  margin-bottom: $leading;
+  margin-top: $leading * 0.5;
+  margin-bottom: $leading * 0.5;
 
   li {
     line-height: $leading;
