@@ -79,9 +79,16 @@ $tocBreakpoint: 1024px;
   overflow-y: auto;
   max-height: 85vh;
 
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
   @media screen and (max-width: $tocBreakpoint) {
     display: none;
   }
+}
+
+.toc-container::-webkit-scrollbar {
+    display: none;
 }
 
 .toc-post-title {
