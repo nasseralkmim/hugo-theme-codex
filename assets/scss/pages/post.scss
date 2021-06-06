@@ -104,14 +104,14 @@ $tocBreakpoint: 1024px;
 
   a {
     text-decoration: none;
-    color: #9b9b9b;
+    color: $grey;
     font-size: 0.9rem;
     transition: all 100ms ease-in-out;
   }
 
   a.active {
-      color: rgb(51, 51, 51);
-      text-shadow: 1px 0 0 currentColor;
+      color: $darkGrey;
+      text-shadow: 1px 0 1px currentColor;
   }
 }
 
