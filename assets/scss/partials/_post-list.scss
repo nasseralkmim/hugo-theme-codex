@@ -20,12 +20,26 @@
 
 .post__title {
   margin-top: 0;
-  font-weight: 500;
 
   a {
-    color: $black;
+    color: #4A4A4A;
     text-decoration: none;
   }
+}
+.post__summary {
+  color: $darkGrey;
+  margin-top: 1rem;
+}
+
+.post__summary p {
+  margin-top: 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #4A4A4A;
 }
 
 .post__date {
