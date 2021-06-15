@@ -28,7 +28,7 @@ $tocBreakpoint: 1024px;
       text-decoration: none;
       position: absolute;
       left: -1rem;
-      color: $grey;
+      color: $black;
       font-size: 1.2rem;
       font-weight: 400;
     }
@@ -110,9 +110,10 @@ $tocBreakpoint: 1024px;
   }
 
   a.active {
-      color: $darkGrey;
-      text-shadow: 1px 0 1px currentColor;
+      color: $black;
+      text-shadow: 0.3px 0 0px currentColor;
   }
+
 }
 
 .tags__list {
